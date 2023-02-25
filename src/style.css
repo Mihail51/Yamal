@@ -1,0 +1,241 @@
+/* normalise.css */
+html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+
+@font-face {
+    font-family: 'PT Root UI';
+    src: url('fonts/PTRootUI-Regular.eot');
+    src: url('fonts/PTRootUI-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PTRootUI-Regular.woff2') format('woff2'),
+        url('fonts/PTRootUI-Regular.woff') format('woff'),
+        url('fonts/PTRootUI-Regular.ttf') format('truetype'),
+        url('fonts/PTRootUI-Regular.svg#PTRootUI-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('fonts/ProductSans.eot');
+    src: url('fonts/ProductSans.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ProductSans.woff2') format('woff2'),
+        url('fonts/ProductSans.woff') format('woff'),
+        url('fonts/ProductSans.ttf') format('truetype'),
+        url('fonts/ProductSans.svg#ProductSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Iskra Md';
+    src: url('fonts/Iskra-Medium.eot');
+    src: url('fonts/Iskra-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Iskra-Medium.woff2') format('woff2'),
+        url('fonts/Iskra-Medium.woff') format('woff'),
+        url('fonts/Iskra-Medium.ttf') format('truetype'),
+        url('fonts/Iskra-Medium.svg#Iskra-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Root UI';
+    src: url('fonts/PTRootUI-Bold.eot');
+    src: url('fonts/PTRootUI-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PTRootUI-Bold.woff2') format('woff2'),
+        url('fonts/PTRootUI-Bold.woff') format('woff'),
+        url('fonts/PTRootUI-Bold.ttf') format('truetype'),
+        url('fonts/PTRootUI-Bold.svg#PTRootUI-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Root UI';
+    src: url('fonts/PTRootUI-Medium.eot');
+    src: url('fonts/PTRootUI-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PTRootUI-Medium.woff2') format('woff2'),
+        url('fonts/PTRootUI-Medium.woff') format('woff'),
+        url('fonts/PTRootUI-Medium.ttf') format('truetype'),
+        url('fonts/PTRootUI-Medium.svg#PTRootUI-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+:root {
+	--iskra: 'Iskra Md', sans-serif;
+	--pt-root: 'PT Root UI', sans-serif;
+	--pt-sans: 'Product Sans', sans-serif;
+	--size36: 36px;
+	--size30: 30px;
+	--size24: 24px;
+	--size22: 22px;
+	--size20: 20px;
+	--size16: 16px;
+	--size14: 14px;
+	--size12: 12px;
+	--size10: 10px;
+	--height40: 40px;
+	--height36: 36px;
+	--height32: 32px;
+	--height28: 28px;
+	--height20: 20px;
+	--height24: 24px;
+	--height18: 18px;
+	--height14: 14px;
+	--weight400: 400;
+	--weight500: 500;
+	--weight700: 700;
+	--green01: #009974;
+	--green02: #008D6B;
+	--white: #ffffff;
+	--black: #000000;
+	--blue01: #213A8F;
+	--purple01: #A71681;
+	--green01-blue01: linear-gradient(270deg, #009974 0%, #213A8F 100%);
+	--grey01: #D8D8D8;
+	--grey02: #E6E6E6;
+	--grey03: #B3B3B3;
+	--grey-none-active: #E4E4E4;
+	--background: #F2F2F2;
+	--arnament-black: rgba(0, 0, 0, 0.02);
+	--arnament-white: rgba(255, 255, 255, 0.1);
+}
+.background {
+	background: var(--background);
+}
+
+.h1 {
+	font-family: var(--iskra);
+	font-size: var(--size36);
+	line-height: var(--height40);
+	font-weight: var(--weight700);
+	color: #000;
+}
+.h2 {
+	font-family: var(--pt-root);
+	font-size: var(--size24);
+	line-height: var(--height32);
+	font-weight: var(--weight700);
+	color: #000; 
+}
+.h3 {
+	font-family: var(--pt-root);
+	font-size: var(--size16);
+	line-height: var(--height20);
+	font-weight: var(--weight700);
+	color: #000; 
+}
+.normal {
+	font-family: var(--pt-root);
+	font-size: var(--size16);
+	line-height: var(--height24);
+	font-weight: var(--weight400);
+	font-feature-settings: 'case' on;
+	color: #000;
+}
+.normal-medium {
+	font-family: var(--pt-root);
+	font-size: var(--size16);
+	line-height: var(--height24);
+	font-weight: var(--weight500);
+	color: #000;
+}
+.little {
+	font-family: var(--pt-root);
+	font-size: var(--size12);
+	line-height: var(--height18);
+	font-weight: var(--weight400);
+	color: #000;
+}
+.little-bold {
+	font-family: var(--pt-root);
+	font-size: var(--size12);
+	line-height: var(--height18);
+	font-weight: var(--weight700);
+	color: #000;
+}
+.menu {
+	font-family: var(--pt-root);
+	font-size: var(--size14);
+	line-height: var(--height20);
+	font-weight: var(--weight500);
+	color: #000;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+	.h1 {
+		font-family: var(--iskra);
+		font-size: var(--size30);
+		line-height: var(--height36);
+		font-weight: var(--weight700);
+		color: #000;
+	}
+	.h2 {
+		font-family: var(--pt-root);
+		font-size: var(--size22);
+		line-height: var(--height38);
+		font-weight: var(--weight700);
+		color: #000; 
+	}
+	.h3 {
+		font-family: var(--pt-root);
+		font-size: var(--size14);
+		line-height: var(--height18);
+		font-weight: var(--weight700);
+		color: #000; 
+	}
+	.normal {
+		font-family: var(--pt-root);
+		font-size: var(--size14);
+		line-height: var(--height20);
+		font-weight: var(--weight400);
+		font-feature-settings: 'case' on;
+		color: #000;
+	}
+	.normal-medium {
+		font-family: var(--pt-root);
+		font-size: var(--size14);
+		line-height: var(--height20);
+		font-weight: var(--weight500);
+		color: #000;
+	}
+	.little {
+		font-family: var(--pt-root);
+		font-size: var(--size10);
+		line-height: var(--height14);
+		font-weight: var(--weight400);
+		color: #000;
+	}
+	.little-bold {
+		font-family: var(--pt-root);
+		font-size: var(--size10);
+		line-height: var(--height14);
+		font-weight: var(--weight700);
+		color: #000;
+	}
+	.menu {
+		font-family: var(--pt-root);
+		font-size: var(--size12);
+		line-height: var(--height18);
+		font-weight: var(--weight500);
+		color: #000;
+	}
+}
+@media (max-width: 576px) {
+	.h1 {
+		font-family: var(--iskra);
+		font-size: var(--size20);
+		line-height: var(--height24);
+		font-weight: var(--weight700);
+		color: #000;
+	}
+}

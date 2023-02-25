@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'PT Root UI';
+    src: url('fonts/PTRootUI-Regular.eot');
+    src: url('fonts/PTRootUI-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PTRootUI-Regular.woff2') format('woff2'),
+        url('fonts/PTRootUI-Regular.woff') format('woff'),
+        url('fonts/PTRootUI-Regular.ttf') format('truetype'),
+        url('fonts/PTRootUI-Regular.svg#PTRootUI-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('fonts/ProductSans.eot');
+    src: url('fonts/ProductSans.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ProductSans.woff2') format('woff2'),
+        url('fonts/ProductSans.woff') format('woff'),
+        url('fonts/ProductSans.ttf') format('truetype'),
+        url('fonts/ProductSans.svg#ProductSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Iskra Md';
+    src: url('fonts/Iskra-Medium.eot');
+    src: url('fonts/Iskra-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Iskra-Medium.woff2') format('woff2'),
+        url('fonts/Iskra-Medium.woff') format('woff'),
+        url('fonts/Iskra-Medium.ttf') format('truetype'),
+        url('fonts/Iskra-Medium.svg#Iskra-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Root UI';
+    src: url('fonts/PTRootUI-Bold.eot');
+    src: url('fonts/PTRootUI-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PTRootUI-Bold.woff2') format('woff2'),
+        url('fonts/PTRootUI-Bold.woff') format('woff'),
+        url('fonts/PTRootUI-Bold.ttf') format('truetype'),
+        url('fonts/PTRootUI-Bold.svg#PTRootUI-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Root UI';
+    src: url('fonts/PTRootUI-Medium.eot');
+    src: url('fonts/PTRootUI-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PTRootUI-Medium.woff2') format('woff2'),
+        url('fonts/PTRootUI-Medium.woff') format('woff'),
+        url('fonts/PTRootUI-Medium.ttf') format('truetype'),
+        url('fonts/PTRootUI-Medium.svg#PTRootUI-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
